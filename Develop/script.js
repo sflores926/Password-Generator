@@ -22,7 +22,8 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 
-var generatePassword = function() {
+function generatePassword() {
+  // function generatePassword() {
 // Asks user for the length of password they want to create
   var passNumber = window.prompt("How many characters would you like your password to contain?");
   console.log(passNumber);
@@ -54,4 +55,4 @@ var generatePassword = function() {
     return password;
 }
 
-writePassword();
+// writePassword();
